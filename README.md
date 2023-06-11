@@ -14,6 +14,7 @@
 #Program to read contents from a CSV file.
 #Developed by: DEEPIKA S
 #RegisterNumber: 212222230028
+```
 import pandas as pd
 df = pd.read_csv("data.csv")
 print(df.head(10))
