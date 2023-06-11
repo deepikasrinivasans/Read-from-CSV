@@ -14,13 +14,13 @@
 #Program to read contents from a CSV file.
 #Developed by: DEEPIKA S
 #RegisterNumber: 212222230028
-```
 import pandas as pd
 df = pd.read_csv("data.csv")
 print(df.head(10))
 print(df.tail())
 print("No.of Rows:",len(df.axes[0]))
 print("No.of Columns:",len(df.axes[1]))
+```
 
 ## OUTPUT:
 
