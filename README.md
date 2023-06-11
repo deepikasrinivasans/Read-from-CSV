@@ -17,11 +17,11 @@ To write a python program to read contents from a CSV file.
 ```
 ```
 import pandas as pd
-df = pd.read_csv("data.csv")
-print(df.head(10))
-print(df.tail())
-print("No.of Rows:",len(df.axes[0]))
-print("No.of Columns:",len(df.axes[1]))
+f=pd.read_csv('nba.csv')
+print(f.head(10))
+print(f.tail())
+print('Number of Rows:',len(f.axes[0]))
+print('Number of column:',len(f.axex[1]))
 ```
 ## OUTPUT:
 ![output 1](https://github.com/deepikasrinivasans/Read-from-CSV/assets/119393935/123bdb38-0da1-441f-af04-ed41d23c6a67)
